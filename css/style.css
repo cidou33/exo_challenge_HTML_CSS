@@ -1,0 +1,451 @@
+/*------intégration d'une font de caractère--------*/
+@font-face {
+    font-family:"titre";
+    src: url("../font/Sketchzone.otf");
+}
+/*-----changements génériques-----*/
+a:hover{
+    color:white !important;
+}
+h1{
+    font-size:35px;
+    margin-top:20px;
+}
+h2{
+    font-family: "titre";
+    opacity: 0.7;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+/*----------header-----------*/
+header nav{
+    position:fixed;
+    top:0;
+    width:100%
+}
+.filter{
+    background-color:rgba(39, 38, 38, 0.829);
+    width: 100%;
+}
+/*----------menu burger-------*/
+.menuBurger{
+    display: none;
+
+}
+.menuBurger > div{
+    height:6px;
+    width: 60px;
+    border-radius:3px;
+    background-color:white;
+    margin:6px;
+}
+header > nav > div > div > span {
+    font-size:20px;
+}
+header > nav > div > a > img{
+    width:135px;
+    margin-top:50px;
+}
+header ul{
+    margin: 70px 40px 0 40px;
+}
+header li > a{
+    padding: 10px 15px;
+    font-size:20px;
+}
+header li > a:hover{
+    background-color:black;
+}
+.call{
+    display: none;
+    width:30px;
+}
+/*------main---------*/
+/*-----première section--------*/
+.bgImageRayon{
+    margin-top:245px;
+    width: 100%;
+    height: 66vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../asset/agencement-magasin-chaussures-lorenzino-21.jpg");
+}
+main > section:nth-child(2){
+    padding:50px 0;
+    position : relative;
+}
+main > section:nth-child(2) > img{
+    width: 19%;
+    position: absolute;
+    right: 78%;
+    margin-top:30px;
+}
+main > section > div > h3:nth-child(1){
+    text-align: center;
+    margin-top:70px;
+    margin-bottom:60px;
+    font-size: 30px;
+}
+main > section > div > p:nth-child(2){
+    width:500px;
+    font-size:20px;
+    margin-bottom:70px;
+}
+main > section:nth-child(3){
+    width:100%;
+}
+/*------deuxième section----------*/
+.bgImageBoots{
+    width: 100%;
+    height: 66vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../asset/boots.JPG");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgImageBoots > a > h2{
+    font-size:100px;
+}
+main > section:nth-child(3) > div:nth-child(2){
+    background-image: url("../asset/pngBoots.png");
+    background-repeat: no-repeat;
+    width:100%;
+    padding-top:25px;
+}
+main > section:nth-child(3) > div:nth-child(2) > div:nth-child(1){
+    width:500px;
+    margin-right: 130px;
+}
+main > section:nth-child(3) > div:nth-child(2) > div > h3{
+    font-size:30px;
+    margin-top:70px;
+    margin-bottom:60px;
+}
+main > section:nth-child(3) > div:nth-child(2) > div > p{
+    width:500px;
+    font-size:20px;
+    margin-bottom:70px;
+}
+/*-----------troisième section----------*/
+.bgImageCrocs{
+    width: 100%;
+    height: 66vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../asset/crocs.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgImageCrocs > a > h2{
+    font-size:100px;
+}
+main > section:nth-child(4) > div:nth-child(2) > div:nth-child(1){
+    width:500px;
+}
+main > section:nth-child(4) > div:nth-child(2) > div:nth-child(1) > h3{
+    font-size:30px;
+    margin-top:70px;
+    margin-bottom:60px;}
+main > section:nth-child(4) > div:nth-child(2) > div:nth-child(1) > p{
+    width:500px;
+    font-size:20px;
+}
+main > section:nth-child(4) > div:nth-child(2) > div:nth-child(2){
+    position: relative;
+    margin-bottom: 180px;
+}
+main > section:nth-child(4) > div:nth-child(2) > div:nth-child(2) > img:nth-child(1){
+width:300px;
+}
+main > section:nth-child(4) > div:nth-child(2) > div:nth-child(2) > img:nth-child(2){
+    width:300px;
+    filter:invert(100%);
+    position: absolute;
+    bottom:-70%;
+}
+/*--------quatrième section----------*/
+.bgImageBasket{
+    width: 100%;
+    height: 66vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../asset/basket.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgImageBasket > a > h2{
+    font-size:100px;
+}
+main > section:nth-child(5) > div:nth-child(2) > div:nth-child(2) > h3{
+    font-size:30px;
+    margin-top:70px;
+    margin-bottom:60px;}
+main > section:nth-child(5) > div:nth-child(2) > div:nth-child(2) > p{
+    width:500px;
+    font-size:20px;
+    margin-bottom: 70px;
+}
+main > section:nth-child(5) > div:nth-child(2) > img{
+    width:300px;
+}
+/*---------section formulaire---------*/
+main > section:nth-child(6){
+    width:100vw;
+    background-color:rgb(26, 25, 25);
+}
+#form{
+    margin:50px auto 0 auto;
+    padding-bottom: 20px;
+    width: 500px;
+}
+#form >h3{
+    padding: 20px 0 50px 0;
+    width: 100%;
+    text-align: center;
+    font-size:50px;
+}
+#form input{
+    height:35px;
+    width:300px;
+    border-radius: 4px;
+    padding-left: 6px;
+    margin:10px 0;
+}
+#form > div:nth-child(5) > input{
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+/*----------footer-----------*/
+footer{
+    padding:40px;
+    width:100vw;
+    border-top: 1px solid white;
+    background-color: rgb(41, 41, 41);
+}
+footer img{
+    filter: invert(100%);
+    width:30px;
+    margin:0 10px
+}
+footer a{
+    margin: 0 20px;
+}
+footer > div:nth-child(1) > a:nth-child(4){
+    width:125px;
+}
+#scrollUp img{
+    filter:invert(100%);
+    width:30px;
+}
+.number{
+    width: initial !important;
+}
+/*---------cards de la galerie----------*/
+#galerieUn{
+    background-image:url("../asset/galleryUn.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    width:100%;
+}
+#galerieDeux{
+    background-image:url("../asset/galleryDeux.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    width:100%;
+}
+#galerieTrois{
+    background-image:url("../asset/galleryTrois.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    width:100%;
+}
+#galerieQuatre{
+    background-image:url("../asset/galleryQuatre.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    width:100%;
+}
+#galerieCinq{
+    background-image:url("../asset/galleryCinq.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    width:100%;
+}
+#galerieSix{
+    background-image:url("../asset/gallerySix.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    width:100%;
+}
+#galerieSept{
+    background-image:url("../asset/gallerySept.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    width:100%;
+}
+#galerieHuit{
+    background-image:url("../asset/galleryHuit.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    width:100%;
+}
+#galerieNeuf{
+    background-image:url("../asset/galleryNeuf.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    width:100%;
+}
+#galerieDix{
+    background-image:url("../asset/galleryDix.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    width:100%;
+}
+#galerieOnze{
+    background-image:url("../asset/galleryOnze.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    width:100%;
+}
+#galerieDouze{
+    background-image:url("../asset/galleryDouze.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    width:100%;
+}
+/*-----------premier point de cassure--------*/
+@media screen and (max-width:1024px) {
+    footer > div:nth-child(2){
+        display:flex;
+        flex-direction: column;
+    }
+    header .rubriques{
+        display:none;
+    }
+    header .logo{
+        width:80px;
+        margin:0 10px;
+    }
+    .menuBurger{
+        display:flex;
+        position: absolute;
+        left: 0;
+        padding: 30px 20px;
+        cursor: pointer;
+    }
+    header nav{
+        position: relative;
+    }
+    .bgImageRayon{
+        margin:0;
+    }
+    main > section:nth-child(2) > img{
+        display:none;
+    }
+    main > section:nth-child(3) > div:nth-child(2){
+        justify-content:center;
+    }
+    main > section:nth-child(3) > div:nth-child(2) > div:nth-child(1){
+        margin-right: 0;
+    }
+}
+/*--------------deuxième point de cassure-----------*/
+@media screen and (max-width:840px) {
+    footer > div:nth-child(1) > a:nth-child(4){
+        display:none;
+    }
+    main > section:nth-child(3) > div:nth-child(2){
+        background-image:none;
+    }
+    main > section:nth-child(4) > div:nth-child(2){
+        padding-bottom: 60px;
+    }
+    main > section:nth-child(4) > div:nth-child(2) > div:nth-child(2){
+        display:none;
+    }
+    main > section:nth-child(5) > div:nth-child(2) > img{
+        display:none;
+    }
+}
+/*----------dernier pont de cassure--------*/
+@media screen and (max-width:560px) {
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    main > section > div > p:nth-child(2){
+        margin-bottom:20px;
+        width:80vw;
+    }
+    main > section:nth-child(3) > div:nth-child(2) > div:nth-child(1) > p:nth-child(2){
+        margin-bottom:20px;
+        width:80vw;
+    }
+    main > section:nth-child(4) > div:nth-child(2) > div:nth-child(1) > p:nth-child(2){
+        margin-bottom:20px;
+        width:80vw;
+    }
+    main > section:nth-child(5) > div:nth-child(2) > div:nth-child(2) > p:nth-child(2){
+        margin-bottom:20px;
+        width:80vw;
+    }
+    #form{
+        width:90vw;
+    }
+    nav > div:nth-child(1){
+        justify-content:flex-end;
+        align-items: center;
+    }
+    .call{
+        display:block;
+        filter:invert(100%);
+        width:45px;
+        margin:0 28px;
+    }
+    .logo{
+        display:none;
+    }
+    nav > div:nth-child(1) > div:nth-child(2) > h1{
+        margin: 0;
+    }
+}
+
